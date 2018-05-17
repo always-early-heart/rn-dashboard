@@ -7,6 +7,7 @@ npm i rn-dashboard --save
 
 ## 使用方法
 使用方法参照示例,示例中的值为默认值。角度数据参考下图：
+
 ![角度参考](https://github.com/always-early-heart/rn-dashboard/blob/master/example.png)
 ## 示例
     import Dashboard from 'rn-dashboard';
