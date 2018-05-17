@@ -6,8 +6,8 @@ npm i rn-dashboard --save
 根据你的项目版本安装 [react-native-svg](https://github.com/react-native-community/react-native-svg)
 
 ## 使用方法
-  参照示例 示例中的值为默认值
-
+使用方法参照示例,示例中的值为默认值。角度数据参考下图：
+![角度参考](https://github.com/always-early-heart/rn-dashboard/blob/master/example.png)
 ## 示例
     import Dashboard from 'rn-dashboard';
     //……
