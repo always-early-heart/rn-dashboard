@@ -1,0 +1,24 @@
+{
+  "name": "rn-dashboard",
+  "version": "1.0.0",
+  "description": "A simple dashboard",
+  "main": "Dashboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dashboard",
+    "react-native",
+    "finfosoft"
+  ],
+  "author": "always-early-heart",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/always-early-heart/rn-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/always-early-heart/rn-dashboard/issues"
+  },
+  "homepage": "https://github.com/always-early-heart/rn-dashboard#readme"
+}
