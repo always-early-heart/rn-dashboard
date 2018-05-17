@@ -1,4 +1,4 @@
-# rn-shadow
+# rn-dashboard
 rn-dashboard finfosoft used
 ## 准备工作
 npm i rn-dashboard --save
