@@ -21,6 +21,7 @@ npm i rn-dashboard --save
       defaultColor = "#eeeeee", // 默认颜色
       scaleWidth = 2, // 刻度的宽度
       scaleLength = 10, // 刻度的长度
+      scaleInterval=5, // 刻度间隔度数 最好(endAngle-startAngle)%scaleInterval=0
       value = 80 //当前值，最大值为100
     ></Shadow>
     //……

@@ -16,7 +16,9 @@ export default class Dashboard extends Component {
       defaultColor = "#eeeeee", // 默认颜色
       scaleWidth = 2, // 刻度的宽度
       scaleLength = 10, // 刻度的长度
+      scaleInterval=5, // 刻度间隔度数 最好(endAngle-startAngle)%scaleInterval=0
       value = 80 //当前值，最大值为100
+
     } = this.props
 
     let startColorRed = parseInt(startColor.slice(1, 3), 16);
@@ -53,13 +55,13 @@ export default class Dashboard extends Component {
             rotation={angle}
             origin={`${width / 2},${width / 2}`}
             key={angle} />)
-        angle += 5;
+        angle += scaleInterval;
       }
       return lines;
     }
     return (
-      <View style={{ height: width, width: width, alignSelf: "center" }} >
-        <Svg height={width} width={width} >
+      <View style={{ height: width, width: width, alignSelf: "center",backgroundColor:"#ffffffff" }} >
+        <Svg height={width} width={width} style={{backgroundColor:"#ffffffff" }}>
           {getLine()}
         </Svg>
       </View>
